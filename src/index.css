@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Source Sans 3", sans-serif;
+
+  --color-navy: #0B1F4B;
+  --color-gold: #C8972A;
+  --color-gold-lt: #E8B84B;
+  --color-cream: #FBF7F0;
+  --color-ink: #1C1C2E;
+  --color-muted: #4A4A6A;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-cream text-ink antialiased print:bg-white;
+  }
+}
+
+@page {
+  size: letter;
+  margin: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer utilities {
+  .diagonal-stripe {
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+  }
+}
