@@ -23,7 +23,7 @@ import {
 // Line 23
 // Line 24
 // Line 25
-import profilePhoto from "./Profile_photo.jpeg";
+import profilePhoto from "./profile-photo.jpeg";
 
 export default function App() {
   const trainings = [
