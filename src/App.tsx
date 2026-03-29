@@ -68,7 +68,7 @@ export default function App() {
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-white shadow-2xl">
 
 
-              <img src="/profile.jpg" alt="Dr. Andrea Garraway" className="w-full h-full object-cover object-top contrast-[1.05] saturate-[0.9]" referrerPolicy="no-referrer" />
+              <img src="/profile.jpg" alt="Profile" className="w-full h-full object-cover object-top contrast-[1.05] saturate-[0.9]" referrerPolicy="no-referrer" />
             </div>
             <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 bg-gold px-4 py-0.5 rounded-full shadow-lg">
               <p className="text-[9px] font-black tracking-[0.2em] uppercase text-navy whitespace-nowrap">Expert Clinician</p>
