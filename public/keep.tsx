@@ -1,0 +1,2 @@
+// This file is used to keep the public directory in the repository.
+export const keep = true;
