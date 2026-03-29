@@ -16,6 +16,13 @@ import {
   HeartPulse,
   Phone
 } from "lucide-react";
+
+// Line 20
+// Line 21
+// Line 22
+// Line 23
+// Line 24
+// Line 25
 import profilePhoto from "./Profile_photo.jpeg";
 
 export default function App() {
@@ -45,8 +52,6 @@ export default function App() {
       <div className="w-full max-w-[8.5in] min-h-[11in] bg-white shadow-2xl border-t-[10px] border-navy relative flex flex-col print:shadow-none print:border-t-0 print:w-full print:h-full mx-auto">
         {/* Gold Band */}
         <div className="h-1 bg-gold w-full" />
-
-        {/* HERO SECTION - Centered Layout */}
         <section className="flex flex-col items-center bg-navy relative overflow-hidden py-10 px-8 md:px-20">
           {/* Decorative Elements */}
           <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
